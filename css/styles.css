@@ -703,6 +703,7 @@ a {
     border-bottom-left-radius: 4px;
     background-color: rgba(47, 48, 58, 0.8);
     color: var(--text-color-white);
+    
 }
 
 .job-description {
@@ -718,19 +719,26 @@ a {
     overflow: hidden;
 }
 .project-overlay-description{
-    margin: 0;
         position: absolute;
-        left: 0;
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
         right: 0;
         top: 0;
         bottom: 0;
         background: rgba(33, 150, 243, 0.9);
-        padding: 10px;
+        padding: 55px 45px 49px 24px;
         color: #fff;
+}
+.project-overlay-description p {
+        font-size: 18px;
+        line-height: 1.55;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
 }
 .project-overlay-description{
     transform: translateY(100%);
-        transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in;
 }
 .project-item:hover .project-overlay-description{
     transform: translateY(0);
