@@ -692,25 +692,17 @@ a {
     text-align: center;
 }
 
-.jobs  .job-description {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 0;
-    width: 100%;
-    height: 70px;
-    padding: 27px;
-    border-bottom-left-radius: 4px;
-    background-color: rgba(47, 48, 58, 0.8);
-    color: var(--text-color-white);
-    
+.job-description li {
+    position: relative;
 }
 
 .job-description {
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16.41px;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    padding: 27px 0;
+    background-color: rgba(47, 48, 58, 0.8);
     color: var(--text-color-white);
 }
 
@@ -737,7 +729,7 @@ a {
         color: #FFFFFF;
 }
 .project-overlay-description{
-    transform: translateY(100%);
+    transform: translateY(101%);
     transition: transform 0.3s ease-in;
 }
 .project-item:hover .project-overlay-description{
