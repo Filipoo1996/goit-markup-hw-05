@@ -692,8 +692,9 @@ a {
     text-align: center;
 }
 
-.job-description li {
+.job-container li {
     position: relative;
+    display: flex;
 }
 
 .job-description {
@@ -704,6 +705,7 @@ a {
     padding: 27px 0;
     background-color: rgba(47, 48, 58, 0.8);
     color: var(--text-color-white);
+    text-align: center;
 }
 
 .project-overlay-container{
